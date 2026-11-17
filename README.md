@@ -15,3 +15,6 @@ Python, SQL, pandas, scikit-learn, XGBoost, time-series forecasting, data visual
 
 ## Contact
 GitHub: https://github.com/bootloop27
+
+
+| [SQL Sales Analysis](sql-sales-analysis) | Answering business questions about a music store with SQL: revenue by year, country, genre and artist, plus customer analysis | Python, SQL (SQLite), pandas, matplotlib |
