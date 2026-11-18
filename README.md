@@ -8,6 +8,7 @@ Hi, I'm Sai Chaithanya Thoutam. I have an MSc in Data Science from Coventry Univ
 |---|---|---|
 | [Customer Churn Prediction](churn-prediction) | Predicting which telecom customers will leave, comparing models, choosing a decision cut-off and finding the main drivers of churn | Python, pandas, scikit-learn, XGBoost |
 | [SQL Sales Analysis](sql-sales-analysis) | Answering business questions about a music store with SQL: revenue by year, country, genre and artist, plus customer analysis | Python, SQL (SQLite), pandas, matplotlib |
+| [Churn Dashboard](churn-dashboard) | Interactive Streamlit dashboard for exploring customer churn with live filters, deployed online ([live demo](https://data-science-portfolio-vkxyx9j53fzbavvfxk6zad.streamlit.app/)) | Python, Streamlit, pandas, matplotlib |
 
 More projects will be added here.
 
