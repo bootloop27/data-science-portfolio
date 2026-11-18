@@ -1,3 +1,4 @@
+from pathlib import Path
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
@@ -7,7 +8,7 @@ st.set_page_config(page_title="Customer Churn Dashboard", layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("telco-churn.csv")
+    df = pd.read_csv(Path(__file__).parent / "telco-churn.csv")
     df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce").fillna(0)
     df["Churned"] = (df["Churn"] == "Yes").astype(int)
     return df
