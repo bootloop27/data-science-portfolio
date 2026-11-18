@@ -2,6 +2,8 @@
 
 An interactive dashboard for exploring which telecom customers leave, built with Python and Streamlit.
 
+**Live demo:** https://data-science-portfolio-vkxyx9j53fzbavvfxk6zad.streamlit.app/
+
 ![Dashboard screenshot](dashboard.png)
 
 ## What it does
